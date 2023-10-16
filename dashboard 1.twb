@@ -1,0 +1,2743 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0909.1159                               -->
+<workbook original-version='18.1' source-build='2023.2.2 (20232.23.0909.1159)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Political Juggernauts' inline='true' name='federated.0jcjsje0eb7jxf16ld6i20xfvvqy' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Political Juggernauts' name='textscan.0pd0uga0rlkqb1177wn3p145nlvd'>
+            <connection class='textscan' directory='C:/Users/USER/Downloads' filename='Political Juggernauts.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0pd0uga0rlkqb1177wn3p145nlvd' name='Political Juggernauts.csv' table='[Political Juggernauts#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='STATE' ordinal='0' />
+            <column datatype='string' name='CONSTITUENCY' ordinal='1' />
+            <column datatype='string' name='NAME' ordinal='2' />
+            <column datatype='integer' name='WINNER' ordinal='3' />
+            <column datatype='string' name='PARTY' ordinal='4' />
+            <column datatype='string' name='SYMBOL' ordinal='5' />
+            <column datatype='string' name='GENDER' ordinal='6' />
+            <column datatype='integer' name='&quot;CRIMINAL' ordinal='7' />
+            <column datatype='integer' name='F9' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+            <column datatype='string' name='F11' ordinal='10' />
+            <column datatype='string' name='F12' ordinal='11' />
+            <column datatype='integer' name='F13' ordinal='12' />
+            <column datatype='integer' name='F14' ordinal='13' />
+            <column datatype='integer' name='F15' ordinal='14' />
+            <column datatype='integer' name='F16' ordinal='15' />
+            <column datatype='real' name='F17' ordinal='16' />
+            <column datatype='real' name='F18' ordinal='17' />
+            <column datatype='integer' name='F19' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0pd0uga0rlkqb1177wn3p145nlvd' name='Political Juggernauts.csv' table='[Political Juggernauts#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='STATE' ordinal='0' />
+            <column datatype='string' name='CONSTITUENCY' ordinal='1' />
+            <column datatype='string' name='NAME' ordinal='2' />
+            <column datatype='integer' name='WINNER' ordinal='3' />
+            <column datatype='string' name='PARTY' ordinal='4' />
+            <column datatype='string' name='SYMBOL' ordinal='5' />
+            <column datatype='string' name='GENDER' ordinal='6' />
+            <column datatype='integer' name='&quot;CRIMINAL' ordinal='7' />
+            <column datatype='integer' name='F9' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+            <column datatype='string' name='F11' ordinal='10' />
+            <column datatype='string' name='F12' ordinal='11' />
+            <column datatype='integer' name='F13' ordinal='12' />
+            <column datatype='integer' name='F14' ordinal='13' />
+            <column datatype='integer' name='F15' ordinal='14' />
+            <column datatype='integer' name='F16' ordinal='15' />
+            <column datatype='real' name='F17' ordinal='16' />
+            <column datatype='real' name='F18' ordinal='17' />
+            <column datatype='integer' name='F19' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='quote-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STATE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[STATE]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>STATE</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_032CF1035B724C2597F79EBC1BE15239]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CONSTITUENCY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CONSTITUENCY]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>CONSTITUENCY</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_032CF1035B724C2597F79EBC1BE15239]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NAME]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>NAME</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_032CF1035B724C2597F79EBC1BE15239]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WINNER</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[WINNER]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>WINNER</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_032CF1035B724C2597F79EBC1BE15239]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PARTY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PARTY]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>PARTY</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_032CF1035B724C2597F79EBC1BE15239]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SYMBOL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SYMBOL]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>SYMBOL</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_032CF1035B724C2597F79EBC1BE15239]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GENDER</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GENDER]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>GENDER</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_032CF1035B724C2597F79EBC1BE15239]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>&quot;CRIMINAL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[&quot;CRIMINAL]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>&quot;CRIMINAL</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_032CF1035B724C2597F79EBC1BE15239]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_032CF1035B724C2597F79EBC1BE15239]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_032CF1035B724C2597F79EBC1BE15239]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F11</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F11]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>F11</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_032CF1035B724C2597F79EBC1BE15239]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F12</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F12]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>F12</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_032CF1035B724C2597F79EBC1BE15239]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F13</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F13]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>F13</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_032CF1035B724C2597F79EBC1BE15239]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F14</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F14]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>F14</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_032CF1035B724C2597F79EBC1BE15239]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F15</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F15]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>F15</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_032CF1035B724C2597F79EBC1BE15239]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F16</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F16]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>F16</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_032CF1035B724C2597F79EBC1BE15239]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F17</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F17]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>F17</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_032CF1035B724C2597F79EBC1BE15239]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F18</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F18]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>F18</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_032CF1035B724C2597F79EBC1BE15239]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F19</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F19]</local-name>
+            <parent-name>[Political Juggernauts.csv]</parent-name>
+            <remote-alias>F19</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Political Juggernauts.csv_032CF1035B724C2597F79EBC1BE15239]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Education' datatype='string' name='[F10]' role='dimension' type='nominal' />
+      <column caption='Total  Votes' datatype='string' name='[F11]' role='dimension' type='nominal' />
+      <column caption='General Votes' datatype='integer' name='[F9]' role='measure' type='quantitative' />
+      <column datatype='string' name='[GENDER]' role='dimension' type='nominal' />
+      <column caption='Name' datatype='string' name='[NAME]' role='dimension' type='nominal' />
+      <column caption='Party' datatype='string' name='[PARTY]' role='dimension' type='nominal' />
+      <column caption='State' datatype='string' name='[STATE]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Symbol' datatype='string' name='[SYMBOL]' role='dimension' type='nominal' />
+      <column caption='Winner' datatype='integer' name='[WINNER]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Political Juggernauts.csv' datatype='table' name='[__tableau_internal_object_id__].[Political Juggernauts.csv_032CF1035B724C2597F79EBC1BE15239]' role='measure' type='quantitative' />
+      <column-instance column='[GENDER]' derivation='None' name='[none:GENDER:nk]' pivot='key' type='nominal' />
+      <group caption='Set 1' name='[Set 1]' name-style='unqualified' user:ui-builder='lasso-group'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='member' level='[F10]' member='%null%' />
+          <groupfilter function='member' level='[GENDER]' member='&quot;6.406488222&quot;' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='shape' field='[none:GENDER:nk]' type='shape'>
+            <map to='asterisk'>
+              <bucket>&quot;\&quot;GENERAL&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1213777&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;121740&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1288666&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1332300&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1362269&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1391853&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1436431&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1461004&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1484256&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1500016&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1513806&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1530404&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1552019&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1562331&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1581366&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1595284&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1612300&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1621295&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1633824&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1644674&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1650453&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1655704&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1662368&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1670391&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1679506&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1694329&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1702248&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1708585&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1719190&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1730553&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1737133&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1744762&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1760633&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1766601&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1776358&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1789168&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1800237&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1808780&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1821785&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1834385&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1848489&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1864320&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1881441&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1888524&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1908173&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1925479&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1943486&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1957931&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;1981197&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;2040367&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;2075824&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;2161096&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;2302960&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;792464&quot;</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>&quot;Mango&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1195720&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1197806&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1266550&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1314319&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1355796&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1371427&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1427338&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1451418&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1473862&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1493205&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1506102&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1521363&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1541881&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1558952&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1573009&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1588454&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1603318&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1616476&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1631698&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1642864&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1648383&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1653353&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1659651&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1666770&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1676454&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1685955&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1699219&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1706119&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1716766&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1727311&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1734938&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1743283&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1754195&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1764726&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1771254&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1786151&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1797587&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1807043&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1814200&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1828764&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1845150&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1853711&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1876346&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1886284&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1897134&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1915408&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1937882&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1948010&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;1968276&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;2015911&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;2069559&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;2127021&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;2215489&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;2497458&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;556761&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;Gift Pack&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1230197&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1288926&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1337110&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1363937&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1397253&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1439691&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1461052&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1484842&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1501250&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1513809&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1531525&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1553385&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1563930&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1583129&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1596290&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1612512&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1621671&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1633925&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1645884&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1651543&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1655870&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1664125&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1671030&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1679534&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1694646&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1703279&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1708759&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1719322&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1732263&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1737437&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1749100&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1760875&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1767725&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1776555&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1790510&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;179232&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1801717&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1809109&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1822625&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1837723&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1849429&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1865169&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1884339&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1889740&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1909055&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1928204&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1943794&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1958382&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;1985228&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;2040739&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;2089353&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;2161663&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;2350580&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;795945&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;Auto- Rickshaw&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;Nagara&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1245972&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1296720&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1340173&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1365035&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1413599&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1444082&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1468530&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1487681&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1502861&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1516688&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1534256&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1554176&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1566196&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1586117&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1598939&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1614988&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1628033&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1638378&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1647350&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1652965&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1657166&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1665502&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1672845&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1683325&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1698003&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1704596&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1712004&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1723538&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1733578&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1739600&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1751734&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1761564&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1768777&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1785472&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1794648&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1804028&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1811556&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1823820&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1839514&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1851628&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1867976&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1885064&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1891576&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1910188&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1933169&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1945772&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1958939&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;1997328&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;2045405&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;2114201&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;2181319&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;2371644&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;318471&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;973410&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;Ears of Corn And Sickle&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;Sickle and Star\&quot;&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1022099&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1259085&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1303649&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1350710&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1366060&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1424385&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1444335&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1468671&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1489790&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1503980&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1518996&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1539026&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1556469&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1566499&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1587079&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1601220&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1615865&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1628451&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1638842&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1647399&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1652994&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1657335&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1666126&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1674236&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1685149&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1698089&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1704632&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1716160&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1724976&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1733729&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1741604&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1751980&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1762252&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1770248&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1785605&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1794896&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1805439&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1811851&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1826526&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1840738&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1851654&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1871099&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1885433&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1892931&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1912911&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1933358&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1945992&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;1962903&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;2000744&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;2047302&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;2114663&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;2191465&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;2378995&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;339788&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;FEMALE&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;Two Leaves&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1204191&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1269917&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1318024&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1356803&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1382741&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1431704&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1455577&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1479091&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1498666&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1508840&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1529431&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1546938&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1561040&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1575590&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1592611&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1611056&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1617470&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1632983&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1643595&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1648906&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1654811&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1661229&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1667282&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1678357&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1686333&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1699678&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1708013&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1718814&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1729908&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1735983&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1744321&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1757984&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1765334&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1775095&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1787878&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1799551&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1807768&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1816857&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1829373&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1845547&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1858566&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1880496&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1887127&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1903870&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1916185&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1941231&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1952542&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;1973533&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;2023431&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;2071816&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;2146008&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;2290492&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;2849250&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;6.406488222&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;646729&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;Jackfruit&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1261861&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1308102&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1352857&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1370544&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1425218&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1449150&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1473347&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1492317&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1504403&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1520504&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1541145&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1556599&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1570330&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1588111&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1603220&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1616213&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1629961&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1641868&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1648355&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1652999&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1658672&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1666703&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1675724&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1685816&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1698876&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1705073&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1716459&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1725187&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1733805&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1742883&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1752454&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1762918&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1770699&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1785657&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1796932&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1805946&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1814125&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1828433&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1842095&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1852417&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1874824&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1885600&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1896333&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1914739&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1937690&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1946870&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;1965676&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;2010477&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;2067463&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;2114809&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;2204817&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;2443112&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;434128&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;463775&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;Ganna Kisan&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1202664&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1266794&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1317738&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1356701&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1379122&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1427783&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1454436&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1475007&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1493543&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1507875&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1528938&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1541971&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1559740&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1575064&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1588693&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1608545&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1617018&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1631817&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1643317&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1648869&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1654317&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1660147&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1667253&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1676668&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1686215&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1699394&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1706141&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1718252&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1728851&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1735464&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1743515&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1756837&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1765312&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1775051&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1787120&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1797655&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1807119&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1816830&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1829300&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1845223&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1856791&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1876953&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1886657&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1899747&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1915959&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1940269&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1951267&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;1971658&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;2019104&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;2071244&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;2142861&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;2253448&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;2728978&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;579352&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;Hand&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1206698&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1281462&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1323010&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1359679&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1387286&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1434384&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1459556&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1480222&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1499639&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1508963&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1530014&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1547800&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1562283&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1578218&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1594950&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1611317&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1618419&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1633064&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1643992&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1649413&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1655239&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1661661&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1667465&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1679030&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1690620&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1702024&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1708510&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1718837&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1730289&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1736693&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1744446&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1760503&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1766121&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1775196&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1787925&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1800002&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1807893&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1819893&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1833091&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1848306&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1861396&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1881077&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1888025&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1904193&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1922764&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1942514&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1956755&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;1975368&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;2039302&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;2072634&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;2150728&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;2298080&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;3150313&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;55189&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;716990&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;MALE&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1234286&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1294671&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1337808&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1364038&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1397779&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1440380&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1462246&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1485804&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1502455&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1514783&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1531781&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1553860&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1564519&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1585980&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1597500&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1612556&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1627199&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1637951&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1646435&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1652096&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1656474&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1664160&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1671253&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1679891&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1697384&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1704010&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1710916&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1723236&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1732936&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1739082&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1751258&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1761207&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1768297&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1779350&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1792798&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1803349&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1810574&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1823664&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1839312&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1851112&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1867220&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1884883&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1890100&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1909574&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1931400&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1945765&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1958904&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;1991651&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;2041612&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;2111738&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;2175529&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;2370903&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;250029&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;937464&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;Battery Torch&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;Rising Sun&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Political Juggernauts.csv' id='Political Juggernauts.csv_032CF1035B724C2597F79EBC1BE15239'>
+            <properties context=''>
+              <relation connection='textscan.0pd0uga0rlkqb1177wn3p145nlvd' name='Political Juggernauts.csv' table='[Political Juggernauts#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='STATE' ordinal='0' />
+                  <column datatype='string' name='CONSTITUENCY' ordinal='1' />
+                  <column datatype='string' name='NAME' ordinal='2' />
+                  <column datatype='integer' name='WINNER' ordinal='3' />
+                  <column datatype='string' name='PARTY' ordinal='4' />
+                  <column datatype='string' name='SYMBOL' ordinal='5' />
+                  <column datatype='string' name='GENDER' ordinal='6' />
+                  <column datatype='integer' name='&quot;CRIMINAL' ordinal='7' />
+                  <column datatype='integer' name='F9' ordinal='8' />
+                  <column datatype='string' name='F10' ordinal='9' />
+                  <column datatype='string' name='F11' ordinal='10' />
+                  <column datatype='string' name='F12' ordinal='11' />
+                  <column datatype='integer' name='F13' ordinal='12' />
+                  <column datatype='integer' name='F14' ordinal='13' />
+                  <column datatype='integer' name='F15' ordinal='14' />
+                  <column datatype='integer' name='F16' ordinal='15' />
+                  <column datatype='real' name='F17' ordinal='16' />
+                  <column datatype='real' name='F18' ordinal='17' />
+                  <column datatype='integer' name='F19' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_CE73FB5AF2B84DCBA2A291CEEB5A86BC]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Sheet 4' />
+      <command command='tsc:brush'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Sheet 4' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Political Juggernauts' name='federated.0jcjsje0eb7jxf16ld6i20xfvvqy' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jcjsje0eb7jxf16ld6i20xfvvqy'>
+            <column caption='Winner' datatype='integer' name='[WINNER]' role='measure' type='quantitative' />
+            <column-instance column='[WINNER]' derivation='Sum' name='[sum:WINNER:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0jcjsje0eb7jxf16ld6i20xfvvqy].[sum:WINNER:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='14'>Total Winners</run>
+                <run>Æ&#10;</run>
+                <run fontsize='14'><![CDATA[<[federated.0jcjsje0eb7jxf16ld6i20xfvvqy].[sum:WINNER:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{E3FF5FFF-9E7B-4D51-ABEB-D440FE4B9131}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Political Juggernauts' name='federated.0jcjsje0eb7jxf16ld6i20xfvvqy' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jcjsje0eb7jxf16ld6i20xfvvqy'>
+            <column datatype='integer' name='[&quot;CRIMINAL]' role='measure' type='quantitative' />
+            <column-instance column='[&quot;CRIMINAL]' derivation='Count' name='[cnt:&quot;CRIMINAL:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0jcjsje0eb7jxf16ld6i20xfvvqy].[cnt:&quot;CRIMINAL:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='15'>Total Criminal Cases</run>
+                <run>Æ&#10;</run>
+                <run fontsize='15'><![CDATA[<[federated.0jcjsje0eb7jxf16ld6i20xfvvqy].[cnt:"CRIMINAL:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{155D8D12-795B-4D42-9F89-5B0C61C664DE}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Political Juggernauts' name='federated.0jcjsje0eb7jxf16ld6i20xfvvqy' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jcjsje0eb7jxf16ld6i20xfvvqy'>
+            <column datatype='integer' name='[F13]' role='measure' type='quantitative' />
+            <column-instance column='[F13]' derivation='Sum' name='[sum:F13:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0jcjsje0eb7jxf16ld6i20xfvvqy].[sum:F13:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='14'>Total Votes</run>
+                <run>Æ&#10;</run>
+                <run fontsize='14'><![CDATA[<[federated.0jcjsje0eb7jxf16ld6i20xfvvqy].[sum:F13:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3A4F8AB8-0D2F-40E8-8A1A-4F2FCB83D3BE}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Political Juggernauts' name='federated.0jcjsje0eb7jxf16ld6i20xfvvqy' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jcjsje0eb7jxf16ld6i20xfvvqy'>
+            <column caption='Education' datatype='string' name='[F10]' role='dimension' type='nominal' />
+            <column caption='General Votes' datatype='integer' name='[F9]' role='measure' type='quantitative' />
+            <column datatype='string' name='[GENDER]' role='dimension' type='nominal' />
+            <column-instance column='[F10]' derivation='None' name='[none:F10:nk]' pivot='key' type='nominal' />
+            <column-instance column='[GENDER]' derivation='None' name='[none:GENDER:nk]' pivot='key' type='nominal' />
+            <column-instance column='[F9]' derivation='Sum' name='[sum:F9:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jcjsje0eb7jxf16ld6i20xfvvqy].[none:GENDER:nk]'>
+            <groupfilter function='member' level='[none:GENDER:nk]' member='&quot;Gift Pack&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.0jcjsje0eb7jxf16ld6i20xfvvqy].[sum:F9:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.0jcjsje0eb7jxf16ld6i20xfvvqy].[sum:F9:qk]</column>
+            <column>[federated.0jcjsje0eb7jxf16ld6i20xfvvqy].[none:GENDER:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.0jcjsje0eb7jxf16ld6i20xfvvqy].[sum:F9:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0jcjsje0eb7jxf16ld6i20xfvvqy].[none:F10:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0jcjsje0eb7jxf16ld6i20xfvvqy].[sum:F9:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0jcjsje0eb7jxf16ld6i20xfvvqy].[none:F10:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.8570718765258789' />
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0jcjsje0eb7jxf16ld6i20xfvvqy].[sum:F9:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0jcjsje0eb7jxf16ld6i20xfvvqy].[none:F10:nk]' />
+              <shape column='[federated.0jcjsje0eb7jxf16ld6i20xfvvqy].[none:GENDER:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.8570718765258789' />
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0jcjsje0eb7jxf16ld6i20xfvvqy].[sum:F9:qk] + [federated.0jcjsje0eb7jxf16ld6i20xfvvqy].[sum:F9:qk])</rows>
+        <cols>([federated.0jcjsje0eb7jxf16ld6i20xfvvqy].[none:GENDER:nk] / [federated.0jcjsje0eb7jxf16ld6i20xfvvqy].[none:F10:nk])</cols>
+      </table>
+      <simple-id uuid='{E49F6370-4530-426B-B07F-9A2AD3DCBB47}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{4FA26DF9-4417-448F-B443-1A2C9A884944}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{52CBD7ED-CE23-4DCB-A679-157E066FF260}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0jcjsje0eb7jxf16ld6i20xfvvqy].[none:F12:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5BD59441-D689-498C-8BE8-724C2FB693F3}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0jcjsje0eb7jxf16ld6i20xfvvqy].[none:GENDER:nk]' show-title='false' type='shape' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight field='[federated.0jcjsje0eb7jxf16ld6i20xfvvqy].[none:GENDER:nk]' type='shape'>
+          <bucket-selection />
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{D6D787DE-C975-403C-B738-EDF9BF931B88}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+      mgIQ0/4HRErttlqYC68AAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 4' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
